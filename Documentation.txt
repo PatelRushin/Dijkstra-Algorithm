@@ -1,0 +1,34 @@
+# Insights and Learnings
+
+Dijkstra's algorithm is a cornerstone of network routing protocols, providing the capability to compute the shortest path between nodes efficiently. Through the implementation of this algorithm, I gained deeper insights into its operation and practical applications, particularly in fields such as telecommunications and road traffic management.
+
+# Implementation Details
+
+The algorithm implemented in this repository consists of three primary functions:
+
+1. "Djikstras_Algorithm": This is the main function that orchestrates the execution of the algorithm. It initializes necessary data structures and iteratively updates the shortest paths from the start node to all other nodes.
+
+2. "select_node_with_minimum_distance": A helper function that selects the unvisited node with the smallest known distance from the start node, which is crucial for the greedy nature of the algorithm.
+
+3. "display_results": This function prints the shortest distance from the start node to each node in the graph, providing a clear, user-friendly output.
+
+The implementation leverages Python's `sys.maxsize` to represent infinity, which is used to initialize distances to nodes that are not directly connected.
+
+# Results
+
+Upon execution with the provided example graph, the output is as follows:
+
+Node Shortest Distance from Start Node
+0 0
+1 2
+2 5
+3 6
+4 7
+
+This result indicates the shortest distances from the start node (node 0) to all other nodes in the graph.
+
+# Conclusion
+
+This project not only reinforced my understanding of Dijkstra's algorithm but also improved my proficiency in Python programming and algorithmic thinking. Implementing such algorithms from scratch provides invaluable experience in solving complex problems using computer science.
+
+
