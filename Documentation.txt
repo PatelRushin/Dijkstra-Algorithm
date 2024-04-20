@@ -18,12 +18,12 @@ The implementation leverages Python's `sys.maxsize` to represent infinity, which
 
 Upon execution with the provided example graph, the output is as follows:
 
-Node Shortest Distance from Start Node
-0 0
-1 2
-2 5
-3 6
-4 7
+Node        Shortest Distance from Start Node
+ 0                         0
+ 1                         2
+ 2                         5
+ 3                         6
+ 4                         7
 
 This result indicates the shortest distances from the start node (node 0) to all other nodes in the graph.
 
