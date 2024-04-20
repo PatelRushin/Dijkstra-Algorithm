@@ -17,3 +17,7 @@ To run the program, use the following command from the terminal:
 python Djikstras_Algorithm.py
 
 This will execute the script and display the shortest distances from the start node to all other nodes in the console.
+
+# Example
+
+The example graph used in this script is shown as a table of numbers, where each number shows the travel cost from one node to another. If a number is 0, it means there's no direct route connecting those two nodes.
